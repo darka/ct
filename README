@@ -1,0 +1,5 @@
+Comic Terminal is a website I created ages ago to host comics some of my friends were making.
+
+Surprisingly, the site is still up at: http://ct.liero.be/
+
+When it comes to the code, the most interesting thing is that I wrote my own MVC framework to function as the backend of the project.

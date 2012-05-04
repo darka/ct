@@ -1,0 +1,147 @@
+body {
+	font-family: "bitstream vera sans", "verdana", sans;
+	background: #f9f9f9;
+	font-size: 0.6em;
+}
+
+#top_button {
+	position: absolute;
+}
+
+#main {
+	background: #f1f1f1;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	border: 1px solid #b0b0b0;
+}
+#comic_list_before {
+	text-align: center;
+}
+#comics_list {
+	vertical-align: middle;
+	width: 99%;
+	height: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+#comic {
+	text-align: center;
+}
+span.author {
+	margin: 5px;
+}
+.comment {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border: 1px solid #b0b0b0;
+	/*font-size: 0.8em;*/
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+span.comment_author {
+	background: #e3e3e3;
+	padding-right: 2px;
+	border-right: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+}
+a {
+	display: inline;
+}
+a.list_link
+{
+	padding: 3px;
+}
+a:link, a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: 0px;
+}
+img.arrow {
+	margin: 0 10px 10px 10px;
+	vertical-align: middle;
+}
+img.comic {
+	/*border: 1px solid #b0b0b0;*/
+	vertical-align: middle;
+}
+
+fieldset {
+	background: #e3e3e3;
+	border: 1px solid #b0b0b0;
+	width: 40%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px 2px 1px 2px;
+}
+label, legend {
+	/*font-size: 0.8em;*/
+	font-weight: bold;
+}
+input, textarea, select {
+	background: #f8f8f8;
+	border: 1px solid #b0b0b0;
+	font-size: 1.5em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+form * {
+	vertical-align: middle;
+}
+textarea {
+	width: 100%;
+}
+.error {
+	background: #e11212;
+	border: 3px solid #960808;
+	padding: 2px;
+	font-weight: bold;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+}
+#copyright {
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #b0b0b0;
+}
+#page_list * {
+	font-size: 2.1em;
+	color: #bababa;
+	text-decoration: none;
+	vertical-align: middle;
+}
+span#current_page {
+	color: #969696;
+	font-size: 3em;
+}
+#comic_info_box, #comicgroup_info_box {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	background: #e3e3e3;
+	border: 1px solid #b0b0b0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+span.title {
+	font-weight: bold;
+}
+#censoredword_list {
+	font-size: 1.5em;
+	font-weight: bold;
+}
