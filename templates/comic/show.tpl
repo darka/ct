@@ -1,17 +1,13 @@
 <div id="comic">
 
 {if $prevID}
-	<a href="comic.php?action=show&amp;id={$prevID}">
-		<img class="arrow" src="style/back.png" alt="Previous" />
-	</a>
+	<a href="comic.php?action=show&amp;id={$prevID}"><img class="arrow" src="style/back.png" alt="Previous" /></a>
 {/if}
 
 	<img class="comic" src="comics/{$comic_image}" alt="Comic" />
 
 {if $nextID}
-	<a href="comic.php?action=show&amp;id={$nextID}">
-		<img class="arrow" src="style/forward.png" alt="Next" />
-	</a>
+	<a href="comic.php?action=show&amp;id={$nextID}"><img class="arrow" src="style/forward.png" alt="Next" /></a>
 {/if}
 
 	<br />
