@@ -3,6 +3,7 @@
 <head>
    <title>Comic Terminal</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="description" content="Comic Terminal hosts many sets of comics, including: oob, ALLT, Mike & Bob, and wtf." />
    <link rel="stylesheet" type="text/css" href="style.css" />
    <link rel="alternate" type="application/rss+xml" title="Latest Comics in RSS" href="comicsrss.php"/>
    <link rel="alternate" type="application/rss+xml" title="Latest Comments in RSS" href="commentsrss.php"/>
